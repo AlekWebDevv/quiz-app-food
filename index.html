@@ -16,9 +16,208 @@
   <header>
     <h1>Food Quiz</h1>
   </header>
-  <main></main>
+  <main>
+    <div class="start-screen">
+      <p>This quiz will test your knowlege on food topics</p>
+      <button type="button" id="start">Start Quiz</button>
+    </div>
+    <br><!-------------------------- QUESTION #1 -------------------------------------->
+    <ul class="question-and-score">
+      <li id="question-number">
+        Question Number: 1/5
+        </li>
+      <li id="score">
+        Score: 0/5
+        </li>
+    </ul>
+    <form id="question-form" class="question-form">
+      <fieldset>
+        <div class="question">
+          <!-- Caption for <fieldset> ------------->
+          <legend>What color is broccoli?</legend>
+        </div>
+        <div class="options">
+          <div class="answers">
+            <div id="option-container-0">
+              <input type="radio" name="options" id="option1" value="Red" tabindex="1" required>
+              <label for="option1">Red</label>
+            </div>
+            <div id="option-container-1">
+              <input type="radio" name="options" id="option2" value="Orange" tabindex="2" required>
+              <label for="option2">Orange</label>
+            </div>
+            <div id="option-container-2">
+              <input type="radio" name="options" id="option3" value="Pink" tabindex="3" required>
+              <label for="option3">Pink</label>
+            </div>
+            <div id="option-container-3">
+              <input type="radio" name="options" id="option4" value="Green" tabindex="4" required>
+              <label for="option4">Green</label>
+            </div>
+          </div>
+        </div>
+        <button type="submit" id="submit-answer-btn" tabindex="5">Submit</button>
+        <button type="button" id="next-qustion-btn" tabindex="6">Next >></button>
+      </fieldset>
+    </form>
+    <br><!-------------------------- NEXT QUESTION #2/fieldset ------------------------>
+    <ul class="question-and-score">
+      <li id="question-number">
+        Question Number: 2/5
+        </li>
+      <li id="score">
+        Score: 0/5
+        </li>
+    </ul>
+    <form id="question-form" class="question-form">
+      <fieldset>
+        <div class="question">
+          <!-- Caption for <fieldset> ------------->
+          <legend>How many Scolville Heat Units is a Pepper-x the worlds hottest pepper?</legend>
+        </div>
+        <div class="options">
+          <div class="answers">
+            <div id="option-container-0">
+              <input type="radio" name="options" id="option1" value="8,820,000 SHU" tabindex="1" required>
+              <label for="option1">8,820,000 SHU</label>
+            </div>
+            <div id="option-container-1">
+              <input type="radio" name="options" id="option2" value="3,180,000 SHU" tabindex="2" required>
+              <label for="option2">3,180,000 SHU</label>
+            </div>
+            <div id="option-container-2">
+              <input type="radio" name="options" id="option3" value="1,300,000 SHU" tabindex="3" required>
+              <label for="option3">1,300,000 SHU</label>
+            </div>
+            <div id="option-container-3">
+              <input type="radio" name="options" id="option4" value="730,000 SHU" tabindex="4" required>
+              <label for="option4">730,000 SHU</label>
+            </div>
+          </div>
+        </div>
+        <button type="submit" id="submit-answer-btn" tabindex="5">Submit</button>
+        <button type="button" id="next-qustion-btn" tabindex="6">Next >></button>
+      </fieldset>
+    </form>
+    <br><!-------------------------- NEXT QUESTION #3/fieldset ------------------------>
+    <ul class="question-and-score">
+      <li id="question-number">
+        Question Number: 3/5
+        </li>
+      <li id="score">
+        Score: 0/5
+        </li>
+    </ul>
+    <form id="question-form" class="question-form">
+      <fieldset>
+        <div class="question">
+          <!-- Caption for <fieldset> ------------->
+          <legend>Which one of these is NOT a major food group?</legend>
+        </div>
+        <div class="options">
+          <div class="answers">
+            <div id="option-container-0">
+              <input type="radio" name="options" id="option1" value="Protein" tabindex="1" required>
+              <label for="option1">Protein</label>
+            </div>
+            <div id="option-container-1">
+              <input type="radio" name="options" id="option2" value="Vegetables" tabindex="2" required>
+              <label for="option2">Vegetables</label>
+            </div>
+            <div id="option-container-2">
+              <input type="radio" name="options" id="option3" value="Chocalate" tabindex="3" required>
+              <label for="option3">Chocalate</label>
+            </div>
+            <div id="option-container-3">
+              <input type="radio" name="options" id="option4" value="Grains" tabindex="4" required>
+              <label for="option4">Grains</label>
+            </div>
+          </div>
+        </div>
+        <button type="submit" id="submit-answer-btn" tabindex="5">Submit</button>
+        <button type="button" id="next-qustion-btn" tabindex="6">Next >></button>
+      </fieldset>
+    </form>
+    <br><!-------------------------- NEXT QUESTION #4/fieldset ------------------------>
+    <ul class="question-and-score">
+      <li id="question-number">
+        Question Number: 4/5
+        </li>
+      <li id="score">
+        Score: 0/5
+        </li>
+    </ul>
+    <form id="question-form" class="question-form">
+      <fieldset>
+        <div class="question">
+          <!-- Caption for <fieldset> ------------->
+          <legend>Which one of these is not an ingrediant in cake?</legend>
+        </div>
+        <div class="options">
+          <div class="answers">
+            <div id="option-container-0">
+              <input type="radio" name="options" id="option1" value="Eggs" tabindex="1" required>
+              <label for="option1">Eggs</label>
+            </div>
+            <div id="option-container-1">
+              <input type="radio" name="options" id="option2" value="Beef" tabindex="2" required>
+              <label for="option2">Beef</label>
+            </div>
+            <div id="option-container-2">
+              <input type="radio" name="options" id="option3" value="Flour" tabindex="3" required>
+              <label for="option3">Flour</label>
+            </div>
+            <div id="option-container-3">
+              <input type="radio" name="options" id="option4" value="Milk" tabindex="4" required>
+              <label for="option4">Milk</label>
+            </div>
+          </div>
+        </div>
+        <button type="submit" id="submit-answer-btn" tabindex="5">Submit</button>
+        <button type="button" id="next-qustion-btn" tabindex="6">Next >></button>
+      </fieldset>
+    </form>
+    <br><!-------------------------- NEXT QUESTION #5/fieldset ------------------------>
+    <ul class="question-and-score">
+      <li id="question-number">
+        Question Number: 5/5
+        </li>
+      <li id="score">
+        Score: 0/5
+        </li>
+    </ul>
+    <form id="question-form" class="question-form">
+      <fieldset>
+        <div class="question">
+          <!-- Caption for <fieldset> ------------->
+          <legend>'Which one of these is tea NOT made of?'</legend>
+        </div>
+        <div class="options">
+          <div class="answers">
+            <div id="option-container-0">
+              <input type="radio" name="options" id="option1" value="Roots" tabindex="1" required>
+              <label for="option1">Roots</label>
+            </div>
+            <div id="option-container-1">
+              <input type="radio" name="options" id="option2" value="Bark" tabindex="2" required>
+              <label for="option2">Bark</label>
+            </div>
+            <div id="option-container-2">
+              <input type="radio" name="options" id="option3" value="Beans" tabindex="3" required>
+              <label for="option3">Beans</label>
+            </div>
+            <div id="option-container-3">
+              <input type="radio" name="options" id="option4" value="Leaves" tabindex="4" required>
+              <label for="option4">Leaves</label>
+            </div>
+          </div>
+        </div>
+        <button type="submit" id="submit-answer-btn" tabindex="5">Submit</button>
+        <button type="button" id="next-qustion-btn" tabindex="6">Next >></button>
+      </fieldset>
+    </form>
+  </main>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.js" crossorigin="anonymous"></script>
   <script src="app.js"></script>
 </body>
-
 </html>

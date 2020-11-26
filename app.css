@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+  
+body {
+    font-family: "Roboto", sans-serif;
+    color: black;
+    margin: 0;
+    background-image: url("img/fruit-table.jpg");
+    background-color: #262626;
+    background-size: 2545px;
+}
+
+main {
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 35px;
+}
+  
+header {
+    padding: 55px 0 0 0;
+    color: white;
+}
+  
+h1 {
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Modak', cursive;
+    color: rgb(255, 238, 0);
+    text-shadow: 3px 3px 5px #a7caff, 4px 4px 5px blue;
+}
+
+p {
+    font-size: 20px;
+    font-weight: bold;
+}
+  
+.question-and-score {
+    font-size: 22px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    list-style: none;
+    margin-right: 40px;
+    text-shadow: 2px 2px 4px rgb(5, 5, 5), 2px 2px 5px rgb(7, 7, 7);
+}
+  
+button {
+    margin-top:10px;
+    height: auto;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    color:rgb(252, 252, 252);
+    background: rgb(58, 120, 255);
+    border: 0;
+    cursor: pointer;
+    margin-bottom: 0;
+    border-radius:3px;
+    padding: 10px 20px;
+}
+  
+.start-screen, fieldset {
+    max-width: 550px;
+    padding: 30px;
+    margin: 55px auto 0 auto;
+    background:rgb(243, 243, 243);
+    border-radius: 7px;
+}
+  
+legend {
+    font-weight: 700;
+    font-size: 19px;
+}
+  
+.question-form .question {
+    margin-bottom: 30px;
+    padding: 0 2%;
+    font-size: 20px;
+    font-weight: 600px;
+}
+  
+.options ul {
+    list-style: none;
+    margin:0;
+    text-align:left;
+}
+  
+label {
+    font-size:18px;
+    font-weight: bold;
+}
+
+input[type="radio"] {
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+  
+.options {
+    display:block;
+    border-radius:5px;
+}
+  
+.question-form button {
+   float:right;
+}
+  
+button:hover:enabled,
+button:focus:enabled{
+    background-color: #f55353;
+    transition-delay: 38.0ms;
+}
+
+@media screen and (min-width: 800px) {
+    h1 {
+        font-size: 83px;
+    }
+}
+
+@import url(
+    'https://fonts.googleapis.com/css2?family=Modak&display=swap'
+    );
