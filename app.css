@@ -85,10 +85,32 @@ legend {
     margin:0;
     text-align:left;
 }
+
+.options span {
+    display:block;
+    border-radius:5px;
+}
   
 label {
     font-size:18px;
     font-weight: bold;
+}
+
+.right-answer {
+    background:rgb(255, 255, 255)55, 255, 255);
+    padding: 10px 20px;
+    margin: 5px 20px;
+    border:5px solid rgb(116, 243, 32);
+    border-radius: 12px;
+}
+   
+.wrong-answer {
+    background:rgb(255, 255, 255);
+    padding: 15px 10px;
+    margin: 5px 20px;
+    border:5px solid #ff0000;
+    border-radius: 12px;
+    font-size: 17px;
 }
 
 input[type="radio"] {
@@ -100,6 +122,12 @@ input[type="radio"] {
     display:block;
     border-radius:5px;
 }
+
+.options ul {
+    list-style: none;
+    margin:0;
+    text-align:left;
+}
   
 .question-form button {
    float:right;
@@ -109,6 +137,10 @@ button:hover:enabled,
 button:focus:enabled{
     background-color: #f55353;
     transition-delay: 38.0ms;
+}
+
+#next-question-btn {
+    display: none;
 }
 
 @media screen and (min-width: 800px) {
